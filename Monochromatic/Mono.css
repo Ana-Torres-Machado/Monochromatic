@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    font-family: "Rye";
+}
+@font-face {
+    font-family: "Rye";
+    src: url(../Rye/Rye-Regular.ttf);
+}
+header{
+    padding: 1em;
+    background-color: maroon;
+    color: white;
+    font-size: larger;
+    text-decoration:overline underline white;
+    font-family: "Rye";
+    src: url(../Rye/Rye-Regular.ttf);
+}
+
+nav{
+    padding: 0.5em;
+    background-color: black;
+    color: white;
+}
+
+a{
+    display:flex;
+    color: white;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
+a:hover{
+    text-decoration: underline;
+    color:rgb(203, 0, 0);
+}
+
+.beyond{
+    display: flex;
+    background-color: rgb(191, 0, 0);
+    width: 10rem;
+    height: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    left: 675px;
+}
+
+.beyond:hover{
+    background-color: rgb(149, 0, 0);
+    color:white;
+}
+
+.dice{
+    width: 10rem;
+    height:10rem;
+    padding-top: 15px;
+}
+
+.about{
+    padding-top: 20px;
+}
+
+.basics{
+    padding: 15px;
+    
+}
+
+.purchases{
+    padding: 10px;
+    background-color: rgb(90, 0, 0);
+    color: white;
+}
+
+.purchases > h3{
+    text-decoration: overline underline white;
+}
+
+.buy{
+    display: flex;
+    background-color: rgb(191, 0, 0);
+    width: 10rem;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    border-radius: 15px;
+    position: relative;
+    left: 675px;
+}
+
+.buy:hover{
+    background-color: rgb(149, 0, 0);
+    color:white;
+}
+
+.footer{
+    padding: 50px;
+}
